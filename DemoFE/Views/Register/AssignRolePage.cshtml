@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "AssignRole";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/AssignRolePAge.css" />
+</head>
+
+<h1><u><font face="Arial" color="#FFFFF" class="font-italic">Are you a Seller or a Customer?</font></u></h1>
+
+
+
+
+
+<div class="form-group">
+    <input type="submit" value="Continue as a Seller" class="btn btn-dark" onclick="location.href='@Url.Action("RegisterSeller", "Register")'" />
+</div>
+<div class="form-group">
+    <input type="submit" value="Create as a Customer" class="btn btn-dark" onclick="location.href='@Url.Action("RegisterCustomer", "Register")'" />
+</div>

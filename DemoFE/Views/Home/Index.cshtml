@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" />
+</head>
+
+<div class="text-center">
+    <h1 class="display-4 text-dark font-italic"><b>Welcome</b></h1>
+    <h5 class="display-4 text-dark font-italic"><b>New Arrivals Collection 2021</b></h5>
+    
+    <div class="form-group">
+        <input type="submit" value="Shop Now" class="btn btn-dark" onclick="location.href='@Url.Action("PremiumProduct", "Product")'" />
+    </div>
+</div>
